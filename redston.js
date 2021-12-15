@@ -5,9 +5,9 @@ const fs = require("fs");
 require("./util/eventLoader")(client);
 
 client.ayarlar = { 
-"token": "TOKEN",
-"prefix": "prefix",
-"sahip": "sahipid",
+"token": "TOKEN", //-- < Botunuzun tokenini buraya yapıştırın.
+"prefix": "prefix", //-- < Botun prefix'ini ayarlayın.
+"sahip": "sahipid", //-- < Botun sahip ID'ini buraya yapıştırın.
 }
 
 client.commands = new Discord.Collection();
@@ -268,7 +268,7 @@ client.on('roleDelete', async role => {
   data.delete(`sayaç.kanal.${guild.id}`);
   channel.send(`> \`${user.tag}\` **az önce katıldı... yoksa katılmadı mı?**
   
-  > **Toplam da** \`${guild.memberCount}\` **Kişi olduk! Sayaç tamamlandı! 🎉**
+  > **Toplam da** \`${guild.memberCount}\` **Kişi olduk! Sayaç tamamlandı! 🎉** 
   
   ${rol}`)
   } else {
@@ -291,7 +291,7 @@ client.on('guildMemberRemove', async member => {
   if(!sistemSayı) return;
   let sayı = Number(sistemSayı);
   if(!sayı) return;
-  const attachment = new Discord.MessageAttachment('https://cdn.discordapp.com/attachments/766636339361480727/766636500891729930/giphy.gif');
+  const attachment = new Discord.MessageAttachment('https://media.discordapp.net/attachments/916685774987067423/920646858647412736/redstonstandart.gif'); //-- < Buraya logonuzu koyabilirsiniz sunucudan çıkış yapan üyeleri gösterir altındada gif vs eklersiniz.
   channel.send(`> \`${user.tag}\` **Gittiğini fark ettim Aaaaaa!**
   
   > **Toplam da** \`${guild.memberCount}\` **Kişi olduk!** \`${sayı}\` **Kullanıcı olmasına** \`${sayı-Number(guild.memberCount)}\` **Kullanıcı kaldı!**`, attachment)
@@ -302,7 +302,7 @@ client.on('guildMemberRemove', async member => {
 client.on('message', message => {
   if(message.channel.type !== 'text') return;
   let mesaj = message.content.toLocaleLowerCase();
-if(mesaj.includes('cloudup')) message.react('🤫');
+if(mesaj.includes('redston')) message.react('🤫');
 })
 
 client.on('message', async message => {

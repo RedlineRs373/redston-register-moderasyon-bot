@@ -3,7 +3,7 @@ const data = require('quick.db');
 
 exports.run = async (client, message, args) => {
 
-message.channel.send(new Discord.MessageEmbed().setTitle('CloudUP Ban Sistem').setDescription(`
+message.channel.send(new Discord.MessageEmbed().setTitle('RedSton Ban Sistem').setDescription(` 
 \`${client.ayarlar.prefix}ban-log [@kanalEtiket]\`
 **Belirtilen kanala yasaklanma bilgisini gönderir**
 
@@ -23,7 +23,7 @@ message.channel.send(new Discord.MessageEmbed().setTitle('CloudUP Ban Sistem').s
 
 🔨 \`${client.ayarlar.prefix}unban [Kullanıcı ID]\`
 **Sunucunuzdan yasaklı kullanıcının yasağını kaldırır**`)
-.setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png'));
+.setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920650196537442335/standard.gif'));
 
 };
 exports.conf = {

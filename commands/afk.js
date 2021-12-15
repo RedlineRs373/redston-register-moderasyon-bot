@@ -7,7 +7,7 @@ if(message.author.id === message.guild.owner.user.id) return message.channel.sen
 if(!args[0]) reason = 'Bilgi verilmedi.';
 if(args[0]) reason = args[0];
 
-message.channel.send(new Discord.MessageEmbed().setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png').setTitle(`${client.user.username} - Away From Keyboard`).setDescription(`${message.author} **Üyesi Bilgisayar başında & Klavye başında değil**!\n\n• **Sebep:** \`${reason}\``)).then(a => a.delete({timeout: 10000}));
+message.channel.send(new Discord.MessageEmbed().setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920649184732926032/unknown.png').setTitle(`${client.user.username} - Away From Keyboard`).setDescription(`${message.author} **Üyesi Bilgisayar başında & Klavye başında değil**!\n\n• **Sebep:** \`${reason}\``)).then(a => a.delete({timeout: 10000}));
 data.set(`name.${message.author.id}.${message.guild.id}`, message.member.displayName);
 message.member.setNickname('[AFK] '+message.member.displayName);
 data.set(`kullanıcı.${message.author.id}.${message.guild.id}`, reason);
