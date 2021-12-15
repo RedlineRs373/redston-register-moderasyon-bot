@@ -2,10 +2,10 @@
   "name": "hello-express",
   "version": "1.0.0",
   "description": "CloudUP Hazır Altyapı",
-  "main": "lordcreative.js",
+  "main": "redston.js",
   "scripts": {
-    "watch": "nodemon lordcreative.js",
-    "start": "node lordcreative.js"
+    "watch": "nodemon redston.js",
+    "start": "node redston.js"
   },
   "dependencies": {
     "canvacord": "^5.0.7",
