@@ -12,8 +12,8 @@ message.channel.send(new Discord.MessageEmbed()
 **Rolsüz Davet İçin:** [Buraya tıkla](https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=0)
 \`\`\`discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=0\`\`\`
 
-**Rollü Davet İçin:** [Buraya tıkla](https://discord.com/invite/codeworld)
-\`\`\`discord.gg/codeworld\`\`\``));
+**Rollü Davet İçin:** [Buraya tıkla](https://discord.io/edzmedia)
+\`\`\`discord.io/edzmedia\`\`\``));
 
 };
 exports.conf = {
