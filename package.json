@@ -1,7 +1,7 @@
 {
   "name": "hello-express",
   "version": "1.0.0",
-  "description": "CloudUP Hazır Altyapı",
+  "description": "Code Development - </redston> = Register ve Moderasyon botu içerir!",
   "main": "redston.js",
   "scripts": {
     "watch": "nodemon redston.js",
@@ -24,8 +24,8 @@
   },
   "license": "MIT",
   "keywords": [
-    "Lord Creative",
-    "Lord Creative#0001"
+    "aka - Ediz Öztürk",
+    "</redston>#0001"
   ],
   "devDependencies": {
     "nodemon": "^2.0.4"
