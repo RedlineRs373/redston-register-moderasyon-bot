@@ -56,18 +56,18 @@ message.channel.send(new Discord.MessageEmbed().setDescription(`○ ${member} **
 
 message.guild.channels.cache.get(logChannel).send(new Discord.MessageEmbed()
 .setColor('#00001')
-.setTitle('CloudUP - Chat Mute Sistem')
+.setTitle('RedSton - Chat Mute Sistem')
 .setDescription(`○ **Kullanan Yetkili:** \`${message.author.tag}\`
 ○ **Kullanılan kişi:** \`${member.user.tag}\`
 ○ **Açıklama:** \`${reason}\`
 ○ **Ceza Süre:** \`${args[1]}\``)
-.setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png'));
+.setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif'));
 
 
 setTimeout(() => {
 
 message.guild.channels.cache.get(logChannel).send(new Discord.MessageEmbed()
-.setTitle('CloudUP - Chat Mute Sistem')
+.setTitle('RedSton - Chat Mute Sistem')
 .setDescription(`○ ${member.user} **kullanıcısının chat mute süresi bitti!**`))
 
 message.guild.channels.cache.filter(a => a.type === 'text').forEach(s => {

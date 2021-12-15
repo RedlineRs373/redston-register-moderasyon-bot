@@ -3,13 +3,13 @@ const data = require('quick.db');
 
 exports.run = async (client, message, args) => {
 
-message.channel.send(new Discord.MessageEmbed().setTitle(`🔞`).setDescription(`**c!anal
-c!4k
-c!ass
-c!pgif
-c!hentai
-c!pussy
-c!thigh**`));
+message.channel.send(new Discord.MessageEmbed().setTitle(`🔞`).setDescription(`**.anal
+.4k
+.ass
+.pgif
+.hentai
+.pussy
+.thigh**`));
 
 };
 exports.conf = {

@@ -3,7 +3,7 @@ const data = require('quick.db');
 
 exports.run = async (client, message, args) => {
 
-message.channel.send(new Discord.MessageEmbed().setColor('#000001').setTitle('CloudUP Ses & Chat Mute').setDescription(`
+message.channel.send(new Discord.MessageEmbed().setColor('#000001').setTitle('RedSton Ses & Chat Mute').setDescription(`
 👌 \`${client.ayarlar.prefix}mute [@üyeEtiket] 1m\`
 **Yazılı kanallarda mutelemek için kullanılır**
 
@@ -32,7 +32,7 @@ message.channel.send(new Discord.MessageEmbed().setColor('#000001').setTitle('Cl
 **Ayarlı olan ses mute yetki rolünü sıfırlar**
 
 \`${client.ayarlar.prefix}mute-log-kapat\`
-**Ayarlı olan mute kanalını sıfırlar**`).setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png'));
+**Ayarlı olan mute kanalını sıfırlar**`).setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif'));
 
 };
 exports.conf = {
