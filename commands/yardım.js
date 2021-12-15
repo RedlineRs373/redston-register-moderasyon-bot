@@ -3,24 +3,24 @@ exports.run = (client, message, args) => {
  
   const embed = new Discord.MessageEmbed()
   .setColor("#000000")
-       .setDescription(`**Önemli Komutlarınız;**\`\`\`c!sunucu-kayıt  ┃ c!karşılama-mesaj
+       .setDescription(`**Önemli Komutlarınız;**\`\`\`.sunucu-kayıt  ┃ .karşılama-mesaj
 
-c!ban-sistem    ┃ c!komut-cevap-sistem
+.ban-sistem    ┃ .komut-cevap-sistem
 
-c!mute-sistem   ┃ c!ses-mute-sistem
+.mute-sistem   ┃ .ses-mute-sistem
 
-c!sayaç-sistem  ┃ c!karantina-sistem
+.sayaç-sistem  ┃ .karantina-sistem
 
-c!fake-sistem   ┃ c!yasak-tag-sistem
+.fake-sistem   ┃ .yasak-tag-sistem
 
-c!seviye-sistem ┃ c!oto-isim-sistem
+.seviye-sistem ┃ .oto-isim-sistem
 
-c!şablon-sistem ┃ c!tag-rol-sistem \`\`\`
-**Önemli Komutlarınız;**\`\`\`- c!içerikler ┃ c!diğer
+.şablon-sistem ┃ .tag-rol-sistem \`\`\`
+**Önemli Komutlarınız;**\`\`\`- .içerikler ┃ .diğer
 
-- c!korumalar ┃ c!diğer2\`\`\`
+- .korumalar ┃ .diğer2\`\`\`
 `)
-.setImage(`https://media.giphy.com/media/9JXP79SaAaaqtlAvBE/giphy.gif`)
+.setImage(`https://media.discordapp.net/attachments/918394395814953013/920682766796984351/standard_3.gif`)
 
   message.channel.send(embed)
 };

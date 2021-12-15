@@ -5,9 +5,9 @@ const fs = require("fs");
 require("./util/eventLoader")(client);
 
 client.ayarlar = { 
-"token": "TOKEN", //-- < Botunuzun tokenini buraya yapıştırın.
-"prefix": "prefix", //-- < Botun prefix'ini ayarlayın.
-"sahip": "sahipid", //-- < Botun sahip ID'ini buraya yapıştırın.
+"token": "OTA5MDgzNjYwNjQ3NTU1MDgy.YY_IIg.5uSpkch9LxIwds57jWzYFiPgtkA", //-- < Botunuzun tokenini buraya yapıştırın.
+"prefix": ".", //-- < Botun prefix'ini ayarlayın.
+"sahip": "854271206668107798", //-- < Botun sahip ID'ini buraya yapıştırın.
 }
 
 client.commands = new Discord.Collection();

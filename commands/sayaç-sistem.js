@@ -3,7 +3,7 @@ const data = require('quick.db');
 
 exports.run = async (client, message, args) => {
 
-message.channel.send(new Discord.MessageEmbed().setTitle('CloudUP Giriş & Sayaç Sistem').setDescription(`\`${client.ayarlar.prefix}sayaç [#kanalEtiket 1000]\` 
+message.channel.send(new Discord.MessageEmbed().setTitle('RedSton Giriş & Sayaç Sistem').setDescription(`\`${client.ayarlar.prefix}sayaç [#kanalEtiket 1000]\` 
 **Sunucun için toplam bir rakam tut**
 
 \`${client.ayarlar.prefix}sayaç-kapat\` 
@@ -15,7 +15,7 @@ message.channel.send(new Discord.MessageEmbed().setTitle('CloudUP Giriş & Saya�
 
 📢 Auto rol verir mi?
 **Sunucunuza giren kullanıcıya vermesi için:** \`${client.ayarlar.prefix}oto-role [@rolEtiket]\` **&** \`${client.ayarlar.prefix}oto-role-kapat\` **ayarlamalısın.**`)
-.setImage('https://media.giphy.com/media/XAwzAPJLnmZH7Vta24/giphy.gif?width=400&height=155').setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png'));
+.setImage('https/media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif').setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https/media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif'));
 
 };
 exports.conf = {
