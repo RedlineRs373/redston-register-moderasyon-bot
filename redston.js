@@ -150,13 +150,13 @@ let log = guild.channels.cach.eget(logFetch);
 if(oldUser.username === newUser.username) return;
 if(newUser.username.includes(tag) && !oldUser.username.includes(tag)) {
 log.send(new Discord.MessageEmbed()
-.setTitle('CloudUP - TAG Alındı.')
+.setTitle('RedSton - TAG Alındı.') //-- < "RedSton" yazan yeri değiştirebilirsiniz, sunucunuzun adını veya tagını ekleyebilirsiniz.
 .setDescription(`${newUser} **Aramıza hoşgeldin. \`${tag}\` tagını aldığı için ${role} rolü verildi!**`));
 guild.members.cache.get(newUser.id).roles.add(role.id);
 }
 if(oldUser.username.includes(tag) && !newUser.username.includes(tag)) {
 log.send(new Discord.MessageEmbed()
-.setTitle('CloudUP - TAG Çıkarıldı.')
+.setTitle('RedSton - TAG Çıkarıldı.') //-- < "RedSton" yazan yeri değiştirebilirsiniz, sunucunuzun adını veya tagını ekleyebilirsiniz.
 .setColor('#f1c335')
 .setDescription(`${newUser} **Aramızdan ayrıldı. \`${tag}\` tagını çıkardığı için ${role} rolü alındı!**`));
 guild.members.cache.get(newUser.id).roles.remove(role.id);
@@ -249,17 +249,17 @@ client.on('roleDelete', async role => {
   client.on('guildMemberAdd', async member => {
   let user = member.user;
   let guild = member.guild;
-  const sistemKanalID = await data.fetch(`sayaç.kanal.${guild.id}`);
+  const sistemKanalID = await data.fetch(`sayaç.kanal.${guild.id}`); //-- < Sunucuya katılan kişilere hoşgeldin mesajı gönderilecek kanalı belirler.
   if(!sistemKanalID) return;
   let channel = guild.channels.cache.get(sistemKanalID);
-  const sistemSayı = await data.fetch(`sayaç.sayı.${guild.id}`);
+  const sistemSayı = await data.fetch(`sayaç.sayı.${guild.id}`); //-- < Sunucuya girenlerin sayısını gösterir.
   if(!sistemSayı) return;
   let sayı = Number(sistemSayı);
   if(!sayı) return;
   let rol;
   const otoRole = await data.fetch(`oto.role.${guild.id}`);
   if(otoRole) {
-  rol = `>>> **Sunucuya katılan kullanıcıya ${guild.roles.cache.get(otoRole)} rolü direk verildi!**`
+  rol = `>>> **Sunucuya katılan kullanıcıya ${guild.roles.cache.get(otoRole)} rolü direk verildi!**` //-- < Sunucuya yeni katılan üyelere otorol verir.
   } else {
   rol = ''
   }
