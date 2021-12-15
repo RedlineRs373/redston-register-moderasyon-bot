@@ -36,7 +36,7 @@ message.guild.channels.cache.get(logChannel).send(new Discord.MessageEmbed().set
 .setDescription(`${member} Kullanıcısının tüm rollerine el koyuldu.
 
 ${message.guild.roles.cache.get(karantinaRole)} Kapsamına alınarak kontrolü kısıtlandı.`).setImage('https://cdn.glitch.com/322deae8-c50e-4ad8-a7d2-ff13f650466d%2Ftenor.gif')
-.setFooter(`${message.author.username} Tarafından karantinaya alındı`, message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png').setThumbnail(member.user.avatarURL() ? member.user.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png'))
+.setFooter(`${message.author.username} Tarafından karantinaya alındı`, message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920650196537442335/standard.gif').setThumbnail(member.user.avatarURL() ? member.user.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920650196537442335/standard.gif'))
 
 };
 exports.conf = {

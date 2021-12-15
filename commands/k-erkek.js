@@ -23,8 +23,8 @@ data.add(`say.erkek.${message.author.id}.${message.guild.id}`, 1);
 message.channel.send(new Discord.MessageEmbed()
 
 .setDescription(`${member} **Kullanıcısına ${erkek} rolü verilerek karantinadan çıkartıldı.**`)
-.setFooter(message.author.username, message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png')
-.setThumbnail(member.user.avatarURL() ? member.user.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png'))
+.setFooter(message.author.username, message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920650196537442335/standard.gif')
+.setThumbnail(member.user.avatarURL() ? member.user.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920650196537442335/standard.gif'))
 
 };
 exports.conf = {
