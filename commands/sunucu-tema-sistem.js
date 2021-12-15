@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
 
 message.channel.send(new Discord.MessageEmbed()
 .setColor('#00001')
-.setTitle('CloudUP Sunucu Tema Şablon Sistem')
+.setTitle('RedSton Sunucu Tema Şablon Sistem')
 .setDescription(`**Tüm şablonlar ${client.user.username}'a Aittir.**
 İçerikler de birden fazla tema var.
 
@@ -25,7 +25,7 @@ message.channel.send(new Discord.MessageEmbed()
 **Klasik oyun & sohbet sunucusu kurar**
 
 \`\`\`Farklı temalar için, Kendi sunucu şablonunuzu bize iletebilirsin!\`\`\``)
-.setThumbnail('https://cdn.discordapp.com/avatars/686185592899633200/6499d2f1c46b106eed1e25892568aa55.webp?size=512'));
+.setThumbnail('https://media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif'));
 
 };
 exports.conf = {

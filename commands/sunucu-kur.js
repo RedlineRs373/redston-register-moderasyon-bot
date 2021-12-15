@@ -7,7 +7,7 @@ if(message.author.id !== message.guild.owner.user.id) return message.channel.sen
 
 message.channel.send(new Discord.MessageEmbed()
 .setTitle('Oyun & Sohbet Tema')
-.setThumbnail('https://cdn.discordapp.com/avatars/686185592899633200/6499d2f1c46b106eed1e25892568aa55.webp?size=512')
+.setThumbnail('https://media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif')
 .setFooter(`Ping: ${client.ws.ping.toFixed(0)}`, client.user.avatarURL({dynamic: true}))
 .setDescription(`${message.author} **Sunucunun** kurulmasını onaylıyor musun? 😇
 
