@@ -6,7 +6,7 @@ require("moment-duration-format");
 exports.run = async (client, message, args) => {
 message.channel.send(new Discord.MessageEmbed()
 .setTitle(client.user.username)
-.setThumbnail('https://cdn.glitch.com/4ea1e74d-1c99-490a-9c13-d46ec11bc464%2Fe4d668d1400a3a4541f861cb383074e6.gif')
+.setThumbnail('https://media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif')
 .addField('• Uptime', '```'+moment.duration(client.uptime).format("D [gün], H [saat], m [dakika], s [saniye]")+'```', true)
 .addField('• Server', '```'+client.guilds.cache.size+'```', true)
 .addField('• Users', '```'+client.users.cache.filter(a => !a.bot).size+'```', true)

@@ -20,7 +20,7 @@ Ayarlamış olduğunuz **yasaklı tag** rolünü siler
 **Ayarlı bulunan yasaklı tagınızı kapatır**
 
 \`${client.ayarlar.prefix}yasaklı-yeni-üye-role-sil\`
-**Ayarlı olan yeni üye rolünü kapatır**`).setImage('https://cdn.glitch.com/6f5bb25b-c11b-4003-8a39-69490341df18%2Fgiphy%20(9).gif').setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png'));
+**Ayarlı olan yeni üye rolünü kapatır**`).setImage('https://media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif').setThumbnail(message.author.avatarURL() ? message.author.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png'));
 
 };
 exports.conf = {

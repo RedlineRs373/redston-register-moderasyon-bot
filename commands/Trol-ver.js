@@ -8,12 +8,12 @@ if(!args[0]) return message.channel.send(new Discord.MessageEmbed()
 .setTitle('Bir hata oldu!').setDescription(`Üyelerin üzerine verilecek bir **ROL ID** belirtmedin! 🤔
 
 **Örnek:**
-\`\`\`${client.ayarlar.prefix}Trol-ver ${message.guild.roles.cache.random().id}\`\`\``).setColor('#f1c335'));
+\`\`\`${client.ayarlar.prefix}trol-ver ${message.guild.roles.cache.random().id}\`\`\``).setColor('#f1c335'));
 if(!message.guild.roles.cache.get(args[0])) return message.channel.send(new Discord.MessageEmbed()
 .setTitle('Bir hata oldu!').setDescription(`Üyelerin üzerine verilecek bir **ROL ID** belirtmedin! 🤔
 
 **Örnek:**
-\`\`\`${client.ayarlar.prefix}Trol-ver ${message.guild.roles.cache.random().id}\`\`\``).setColor('#f1c335'));
+\`\`\`${client.ayarlar.prefix}trol-ver ${message.guild.roles.cache.random().id}\`\`\``).setColor('#f1c335'));
 
 message.channel.send(new Discord.MessageEmbed()
 .setTitle('İşte bu kadar!').setDescription(`**Sunucunuzda ki üyelere yavaş yavaş ${message.guild.roles.cache.get(args[0])} adlı rol veriliyor.**`));
@@ -33,5 +33,5 @@ exports.conf = {
 }
 
 exports.help = {
-  name: 'Trol-al'
+  name: 'trol-ver'
 };
