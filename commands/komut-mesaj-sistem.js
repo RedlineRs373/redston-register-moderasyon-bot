@@ -4,7 +4,7 @@ const data = require('quick.db');
 exports.run = async (client, message, args) => {
 
 message.channel.send(new Discord.MessageEmbed()
-.setTitle('CloudUP Komut Mesaj Sistem')
+.setTitle('RedSton Komut Mesaj Sistem')
 .setDescription(`\`${client.ayarlar.prefix}komut ekle\`
 **Oluşturmak istediğin komut ismini ve cevabı girmen gerekir**
 
