@@ -7,7 +7,7 @@ exports.run = async (client, message, args) => {
   }
 
 let images = ['https://media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif', 'https/media.discordapp.net/attachments/916685774987067423/920689417121837076/standard_3.gif'];
-message.channel.send(new Discord.MessageEmbed().setColor('#000001').setDescription(`**Yardım 2 Menüsüne Hoş Geldin Dostum 😇**
+message.channel.send(new Discord.MessageEmbed().setColor('#000001').setDescription(`**Yardım  Menüsüne Hoş Geldin Dostum 😇**
 \`\`\`${client.user.username} Kullanırken @</redston> rolünü en yukarıda tutunuz.\`\`\`
 
 **\`${client.ayarlar.prefix}mute-sistem\`
