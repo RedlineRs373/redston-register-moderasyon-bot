@@ -41,7 +41,7 @@ if(isim && nn) member.setNickname(n+isim);
 if(isim && !n) member.setNickname(isim);
 if(!isim && n) member.setNickname(n+member.user.username);
 
-message.channel.send(nn.setThumbnail(member.user.avatarURL() ? member.user.avatarURL({dynamic: true}) : 'https://cdn.glitch.com/8e70d198-9ddc-40aa-b0c6-ccb4573f14a4%2F6499d2f1c46b106eed1e25892568aa55.png').setTitle(`İşte bu kadar! [ Kayıt Başarılı. ]`)
+message.channel.send(nn.setThumbnail(member.user.avatarURL() ? member.user.avatarURL({dynamic: true}) : 'https://media.discordapp.net/attachments/916685774987067423/920650196537442335/standard.gif').setTitle(`İşte bu kadar! [ Kayıt Başarılı. ]`)
 .setDescription(`${member} **Kullanıcısına ${kadın} rolü verildi.**
 
 ${message.author} **Kayıt sayın:** \`${client.ayarlar.prefix}profil yazarak görebilirsin!\`
