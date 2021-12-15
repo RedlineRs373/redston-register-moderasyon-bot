@@ -7,7 +7,7 @@ require("./util/eventLoader")(client);
 client.ayarlar = { 
 "token": "BOT TOKENI", //-- < Botunuzun tokenini buraya yapıştırın.
 "prefix": "BOT PREFIX'İ", //-- < Botun prefix'ini ayarlayın.
-"sahip": "SUNUCU SAHİP ID", //-- < Botun sahip ID'ini buraya yapıştırın.
+"sahip": "SUNUCU SAHIP ID", //-- < Botun sahip ID'ini buraya yapıştırın.
 }
 
 client.commands = new Discord.Collection();
